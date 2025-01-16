@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400&display=swap" rel="stylesheet">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js"></script>
+    <title>Jeux - Sport Électronique du CEGEP de Trois-Rivières</title>
+
+</head>
+<body>
+    <div class="container-fluid w-100 g-0">
+        <div class="row w-100 g-0">
+          <div class="col-xs-12 col-xxl-12">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+              <a class="titre navbar-brand" href="#"><img class="img-menu" src="img/Signature_SportElectro-LogoCTR_rvb.png" alt=""></a>        
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="titre-nav navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Accueil <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Jeux</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="equipe.html">Équipe</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="resultats.html">Résultats</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="calendrier.html">Calendrier</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contactez nous</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="informations.html">Informations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inscription.html">Inscription</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+    </div>
+    <div class="calendrier-nav h-100 g-0 row">
+        <div class="col-md-12 h-100">
+            <button class="tablink" onclick="openPage('League', this, '#092D74', '#fff')">League of Legends</button>
+            <button class="tablink" onclick="openPage('Overwatch', this, '#092D74', '#fff')" id="defaultOpen">Overwatch 2</button>
+            <button class="tablink" onclick="openPage('Valorant', this, '#092D74', '#fff')">Valorant</button>
+            <button class="tablink" onclick="openPage('Rocket', this, '#092D74', '#fff')">Rocket League</button>
+    
+    
+            <div id="League" class="tabcontent">
+            <h3>League of Legends</h3>
+            <div class="rangee-jeux align-items-center row g-0">
+                <div class="col-md-3">
+                    <img class = "img-fluid" src="img/1675777489-league-of-legends-cover.jpg" alt="">
+                </div>
+                <div class="col-md-9">
+                    <p class="jeux-text">
+                        Bienvenue dans l'univers captivant de League of Legends (LoL), un jeu en ligne multijoueur qui a redéfini le paysage de l'e-sport. Développé par Riot Games, League of Legends offre une expérience de bataille stratégique intense dans un monde fantastique riche en champions, en mystères et en compétition.
+                        Plongez dans la Faille de l'Invocateur, forgez des alliances avec d'autres joueurs et devenez une légende dans l'un des jeux les plus emblématiques de l'e-sport. Préparez-vous à affronter le défi et à marquer votre place dans l'histoire de League of Legends !
+                    </p>
+                </div>
+            </div>
+    
+            </div>
+    
+            <div id="Overwatch" class="tabcontent">
+            <h3>Overwatch 2</h3>
+            <div class="rangee-jeux align-items-center row g-0">
+                <div class="col-md-3">
+                    <img class = "img-fluid" src="img/2x1_NSwitchDS_Overwatch2_Season6.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <p class="jeux-text">
+                        Plongez dans l'univers dynamique et palpitant d'Overwatch, le jeu de tir en équipe de Blizzard Entertainment qui a captivé des millions de joueurs à travers le monde. Dans Overwatch, vous n'êtes pas simplement un joueur, vous êtes un héros. Choisissez parmi une galerie diversifiée de héros, chacun doté de compétences spécifiques et d'un style de jeu unique. Overwatch transcende les frontières du genre en offrant une expérience de jeu compétitif unique, mettant en scène des affrontements stratégiques où chaque héros a son rôle crucial à jouer.                
+                    </p>
+                </div>
+            </div>                </div>
+        
+            <div id="Valorant" class="tabcontent">
+                <h3>Valorant</h3>
+                <div class="rangee-jeux align-items-center row g-0">
+                    <div class="col-md-3">
+                        <img class = "img-fluid" src="img/Copy_of_Ep7a3_ISO_Content_Stack_Thumbnail_1200x625_.png" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="jeux-text">
+                            Bienvenue dans l'univers intense et compétitif de Valorant, le jeu de tir tactique développé par Riot Games. Dans ce monde où chaque balle compte, la précision, la stratégie et la coordination d'équipe sont les clés du succès. Valorant propose une expérience de jeu unique, mêlant des gunfights frénétiques à des éléments tactiques astucieux.
+                            Que ce soit en défense, à l'attaque, ou en soutien, chaque joueur de notre équipe apporte une expertise unique et une maîtrise inégalée de leurs Agents, créant une synergie puissante sur le champ de bataille.                </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="Rocket" class="tabcontent">
+                <h3>Rocket League</h3>
+                <div class="rangee-jeux align-items-center row g-0">
+                    <div class="col-md-3">
+                        <img class = "img-fluid" src="img/rocket-league-switch-hero.jpg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="jeux-text">
+                            Préparez-vous à une expérience de jeu sans pareille avec nous, l'équipe e-sport qui redéfinit les limites de l'action sportive dans Rocket League. Plongez dans l'excitation frénétique de ce mélange unique entre soccer et véhicules supersoniques, où l'adresse, la stratégie et l'esprit d'équipe sont les clés de la victoire.                    Que ce soit en défense, à l'attaque, ou en soutien, chaque joueur de notre équipe apporte une expertise unique et une maîtrise inégalée de leurs Agents, créant une synergie puissante sur le champ de bataille.               
+                            Chacun des membres de l'équipe apporte sa propre expertise, une précision millimétrée et une passion dévorante pour Rocket League, créant une équipe imbattable.            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

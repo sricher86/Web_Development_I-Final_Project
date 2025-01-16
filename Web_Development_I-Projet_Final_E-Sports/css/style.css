@@ -1,0 +1,505 @@
+:root {
+    --bleu-principale: #092D74; 
+    --rouge-principale: #CF152D; 
+    --rouge-foncee: #7b0c19;
+  }
+
+body {
+    height: 100%;
+    background-color: var(--bleu-principale);
+}
+
+.conteneur-menu {
+    position: fixed;
+    z-index: 100;
+}
+
+.bouton {
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+    height: auto;
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    background-color: #fff;
+}
+
+.calendrier-nav {
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center; 
+    height: auto;
+    width: 100%;
+    /* padding: 1em 0 1em 0; */
+}
+
+
+
+.tablink {
+    background-color: #f8f9fa;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:visited {
+    color:#000;
+}
+
+.tablink:hover {
+    /* border-bottom: #092D74 solid 2px; */
+    background-color: var(--bleu-principale);
+    color: #fff;
+}
+  
+.tabcontent {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+    line-height: 2em;
+    /* border-bottom:#fff solid 3px; */
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+  
+#League {
+    background-color: var(--bleu-principale); 
+}
+
+#Overwatch {
+    background-color: var(--bleu-principale); 
+}
+
+#Valorant {
+    background-color: var(--bleu-principale); 
+}
+
+#Rocket {
+    background-color: var(--bleu-principale); 
+}
+
+#Courante {
+    background-color: var(--bleu-principale); 
+}
+
+#Anciens {
+    background-color: var(--bleu-principale); 
+}
+
+.lien-tabs {
+    color: #fff;
+}
+
+.lien-petit-tabs {
+    color: #000;
+    font-style: italic;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.lien-petit-tabs:hover {
+    font-style: normal;
+    color: #000;
+    padding: 0;
+}
+
+.lien-tabs:hover {
+    color: #9f9f9f solid 4px;
+    background-color: #fff;
+    text-decoration-color: #9f9f9f;
+    padding-bottom: 1px;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+.lien-index {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+.lien-index:hover {
+    color: #9f9f9f solid 4px;
+    background-color: #fff;
+    text-decoration-color: #9f9f9f;
+    padding-bottom: 1px;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+
+.lien:hover {
+    border-bottom: #092D74 solid 4px;
+    text-decoration-color: var(--bleu-principale);
+    padding-bottom: 1px;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Telephone: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+.col-joueur {
+    padding: 2em 2em 2em 2em;
+}
+
+#carousel-taille {
+    margin: auto;
+}
+
+.car-img {
+    margin: auto;
+    width: 60%;
+}
+
+.img-menu {
+    width: 200px;
+}
+
+
+h2.header-contact {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+    padding: auto;
+    line-height: 2em;
+    border-bottom:#fff solid 3px;
+}
+
+h2.header-noms {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 100%;
+    padding: auto;
+    line-height: 2em;
+    /* border-bottom:#fff solid 3px; */
+}
+
+h1.header {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 67%;
+    padding: auto;
+    margin: auto;
+    line-height: 2em;
+    border-bottom:#fff solid 3px;
+}
+
+h1.header-equipe {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    width: 43%;
+    margin: auto;
+    line-height: 2em;
+    border-bottom:#fff solid 3px;
+}
+
+h3 {
+    padding-bottom: 1em;
+}
+h4.info {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding-top: 2em;
+    line-height: 2em;
+    border-bottom:#fff solid 3px;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.inscrip {
+    background-color: var(--bleu-principale);
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    border: #092D74 solid 1px;
+}
+
+.inscrip:hover {
+    background-color: #f8f9fa;
+    color: black;
+    border:#f8f9fa 1px solid;
+    /* box-shadow: #fff 1px 0 10px; */
+}
+
+.information {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    list-style:circle;
+}
+
+.gras {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+p.regulier {
+    width: 100%;
+    padding-top: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: justify;
+}
+
+.jeux-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    color: white;
+    height: 100%;
+    line-height: 1.75em;
+    padding: 0 1em 0 1em;
+}
+
+.btn {
+    margin-top: 1em;
+    border: #fff solid 1px;
+}
+
+.jeux-img-col {
+    position: relative;
+    height: 100%;
+}
+
+.jeux-conteneur {
+    position: relative;
+    margin-top: 6%;
+}
+
+.contact-conteneur {
+    position: relative;
+    margin: 7% 0;
+}
+
+.img-joueur  {
+    border: 1px solid #c0c0c0;
+    border-radius: 50%;
+    padding: 5px;
+    width: auto;
+}
+
+#opaque {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin:auto;
+    /* margin-top: 5%; */
+    /* padding-bottom: 10%; */
+    height: 70%;
+    width: 70%; 
+    padding: 0 1em 2em 1em;
+}
+
+#opaque-contact {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 0 1em 2em 1em; 
+}
+
+#opaque-carree {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2em 2em 2em 2em;
+    margin-top: 10%;
+    height: 90%;
+    width: 90%;
+}
+
+#opaque-jeux {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 90%;
+    width: 90%;
+    padding: 2em 2em 2em 2em;
+}
+
+.carousel-indicators button.thumbnail {
+    width: 100px;
+}
+
+.carousel-indicators button.thumbnail:not(.active) {
+    opacity: 0.7;
+}
+
+.carousel-indicators {
+    position: static;
+}
+
+@media screen and (min-width: 992px) {
+.carousel {
+    max-width: 70%;
+    margin: 0 auto;
+}
+}
+
+.footer-esport {
+    background-color: #aaaaaa;
+    color: #000;
+}
+
+.liens-footer {
+    color: white;
+}
+  
+.liens-footer:hover {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+    padding: 1px;
+}
+
+.medias {
+    text-decoration: none;
+}
+
+.hr-footer {
+    width: 60px; 
+    background-color: #aaaaaa; 
+    height: 1px;
+}
+
+.esp-txt {
+    line-height: 1;
+}
+
+.top-bar-footer {
+    background-color: var(--bleu-principale); 
+    color: #000;
+}
+
+.wrapper {
+    margin: 7% auto;
+    height: 100%;
+}
+
+.wrapper-car {
+    /* margin: auto auto; */
+    height: 100%;
+}
+
+.tabs {
+    position: relative;
+    margin: 3rem 0;
+    background: #092D74;
+    height: 14.75rem;
+    color: white;
+}
+
+.tabs::before,
+.tabs::after {
+  content: "";
+  display: table;
+}
+.tabs::after {
+  clear: both;
+}
+
+.tab {
+  float: left;
+}
+
+.tab-switch {
+  display: none;
+}
+  
+.tab-label {
+  position: relative;
+  display: block;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.6rem;
+  background: #092D74;
+  border-right: 0.125rem solid #092D74;;
+  color: #fff;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+}
+
+.tab-label:hover {
+  top: -0.25rem;
+  transition: top 0.25s;
+}
+
+.tab-content {
+  height: 12rem;
+  position: absolute;
+  z-index: 1;
+  top: 2.75em;
+  left: 0;
+  padding: 1.618rem 2.6em;
+  background: #fff;
+  color: #2c3e50;
+  border-bottom: 0.25rem solid #bdc3c7;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+.tab-switch:checked + .tab-label {
+  background: #fff;
+  color: #2c3e50;
+  border-bottom: 0;
+  border-right: 0.125rem solid #fff;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem;
+}
+
+.tab-switch:checked + label + .tab-content {
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.35s;
+}
+
+.parallax {
+    background-image: url("../img/pexels-yan-krukau-9072303.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

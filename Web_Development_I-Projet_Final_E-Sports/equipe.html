@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400&display=swap" rel="stylesheet">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2215df48da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js"></script>
+    <title>Sport Électronique du CEGEP de Trois-Rivières</title>
+
+</head>
+<body>
+  <div class="container-fluid w-100 g-0">
+    <div class="row w-100 g-0">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a class="titre navbar-brand" href="#"><img class="img-menu" src="img/Signature_SportElectro-LogoCTR_rvb.png" alt=""></a>        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="titre-nav navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jeux.html">Jeux</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Équipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resultats.html">Résultats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="calendrier.html">Calendrier</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contactez nous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="informations.html">Informations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inscription.html">Inscription</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+    <div class="wrapper-car container-fluid h-100">
+      <div class="row g-0 h-100">
+        <button class="tablink" onclick="openPage('Courante', this, '#092D74', '#fff')">Équipe 2023-2024</button>
+        <button class="tablink" onclick="openPage('Anciens', this, '#092D74', '#fff')" id="defaultOpen">Anciennes Équipes</button>
+      <div class="offset-md-2 col-md-8">
+          <div id="Courante" class="tabcontent">
+            <h1 class="header-equipe">Équipe 2023-2024</h1>
+  
+            <div id="carouselExampleIndicators" class="carousel slide pt-3" data-bs-ride="carousel">
+              <div class="carousel-inner pt-2">
+                <div class="carousel-item active">
+                  <img class="car-img d-block" src="img/arthur_legare.jpg" alt="Arthur Lagacé">
+                  <h2 class="text-center header-noms">Arthur Lagacé</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/Gabryel_Lambert.jpg" alt="Gabryel Lambert">
+                  <h2 class="text-center header-noms">Gabryel Lambert</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/gabryel_poisson.jpg" alt="Gabryel Poisson">
+                  <h2 class="text-center header-noms">Gabryel Poisson</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/Jimmy_Kenny-Vaillancourt .jpg" alt="Jimmy Kenny-Vaillancourt">
+                  <h2 class="text-center header-noms">Jimmy Kenny-Vaillancourt</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/Louka_Beaudoin .jpg" alt="Louka Beaudoin">
+                  <h2 class="text-center header-noms">Louka Beaudoin</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/Mathis_Perron.jpg" alt="Mathis Perron">
+                  <h2 class="text-center header-noms">Mathis Perron</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/Méallan_Milot.jpg" alt="Maéllan Milot">
+                  <h2 class="text-center header-noms">Méallan Milot</h2>
+                </div>
+                <div class="carousel-item">
+                  <img class="car-img d-block" src="img/Robin_Crasset.jpg" alt="Robin Crasset">
+                  <h2 class="text-center header-noms pb-2">Robin Crasset</h2>
+                </div>
+              </div>
+  
+                <!-- carousel thumbnails -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active thumbnail"
+                  aria-current="true" aria-label="Slide 1">
+                  <img class="d-block w-100" src="img/arthur_legare.jpg" alt="Arthur Lagacé">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="thumbnail"
+                  aria-label="Slide 2" style="width: 100px;">
+                  <img class="d-block w-100" src="img/Gabryel_Lambert.jpg" alt="Gabryel Lambert">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="thumbnail"
+                  aria-label="Slide 3" style="width: 100px;">
+                  <img class="d-block w-100" src="img/gabryel_poisson.jpg" alt="Gabryel Poisson">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="thumbnail"
+                  aria-label="Slide 4" style="width: 100px;">
+                <img class="d-block w-100" src="img/Jimmy_Kenny-Vaillancourt .jpg" alt="Jimmy Kenny-Vaillancourt">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="thumbnail"
+                  aria-label="Slide 5" style="width: 100px;">
+                  <img class="d-block w-100" src="img/Louka_Beaudoin .jpg" alt="Louka Beaudoin">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="thumbnail"
+                  aria-label="Slide 6" style="width: 100px;">
+                  <img class="d-block w-100" src="img/Mathis_Perron.jpg" alt="Mathis Perron">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="thumbnail"
+                  aria-label="Slide 7" style="width: 100px;">
+                  <img class="d-block w-100" src="img/Méallan_Milot.jpg" alt="Maéllan Milot">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" class="thumbnail"
+                  aria-label="Slide 8" style="width: 100px;">
+                  <img class="d-block w-100" src="img/Robin_Crasset.jpg" alt="Robin Crasset">
+                </button>
+              </div>
+              
+              </div>
+  
+              <!-- controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+              <!-- / controls -->
+            </div>
+          </div>
+          <div id="Anciens" class="tabcontent">
+            <h3>Anciens membres</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
